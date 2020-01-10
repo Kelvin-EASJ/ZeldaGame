@@ -12,11 +12,11 @@ var health = 1
 
 func movement_loop():
 	var motion
-	if hitstun > 0:
-		motion = knockdir.normalized() * SPEED * 2 
-	else:
+	if hitstun == 0:
 		motion = movedir.normalized() * SPEED
-		move_and_slide(motion, Vector2(0,0))
+	else:
+		motion = knockdir.normalized() * SPEED * 1.5
+	move_and_slide(motion, Vector2(0,0))
 
 func spritedir_loop():
 	match movedir:

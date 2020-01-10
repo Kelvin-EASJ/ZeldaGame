@@ -4,7 +4,7 @@
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Enemies/stalfos.tscn" type="PackedScene" id=3]
 
-[node name="Node" type="Node" index="0"]
+[node name="Node" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -31,7 +31,15 @@ _sections_unfolded = [ "Cell" ]
 
 position = Vector2( 525.046, 288.801 )
 
-[node name="stalfos" parent="." index="1" instance=ExtResource( 3 )]
+[node name="stalfos" parent="TileMap" index="1" instance=ExtResource( 3 )]
+
+position = Vector2( 720.001, 151 )
+
+[node name="stalfos2" parent="TileMap" index="2" instance=ExtResource( 3 )]
+
+position = Vector2( 271.001, 144 )
+
+[node name="stalfos3" parent="TileMap" index="3" instance=ExtResource( 3 )]
 
 position = Vector2( 325.686, 287.272 )
 

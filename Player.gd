@@ -1,5 +1,6 @@
 extends "res://Engine/entity.gd"
 
+const TYPE = "PLAYER"
 const SPEED = 70
 
 func _physics_process(delta):

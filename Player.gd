@@ -15,7 +15,7 @@ func _physics_process(delta):
 		if spritedir == "up" and test_move(transform, dir.up):
 			anim_switch("push")
 		if spritedir == "down" and test_move(transform, dir.down):
-			anim_switch("down")
+			anim_switch("push")
 	elif movedir != Vector2(0,0):
 		anim_switch("walk")
 	else:

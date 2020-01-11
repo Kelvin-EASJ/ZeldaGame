@@ -62,7 +62,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ Vector2( -10, 3 ) ]
+"values": [ Vector2( -10, 1 ) ]
 }
 tracks/1/type = "value"
 tracks/1/path = NodePath(".:rotation_degrees")
@@ -105,7 +105,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ Vector2( 10, 3 ) ]
+"values": [ Vector2( 10, 1 ) ]
 }
 tracks/1/type = "value"
 tracks/1/path = NodePath(".:rotation_degrees")
@@ -182,11 +182,11 @@ extents = Vector2( 2, 6 )
 
 [node name="sword" type="Node2D" index="0"]
 
-position = Vector2( -10, 3 )
-rotation = 4.71239
+position = Vector2( 10, 1 )
+rotation = 1.5708
 z_index = 1
 script = ExtResource( 1 )
-_sections_unfolded = [ "Z Index" ]
+_sections_unfolded = [ "Transform", "Z Index" ]
 
 [node name="anim" type="AnimationPlayer" parent="." index="0"]
 
@@ -229,5 +229,8 @@ __meta__ = {
 shape = SubResource( 5 )
 disabled = true
 _sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
 
 

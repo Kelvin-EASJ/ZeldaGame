@@ -180,11 +180,10 @@ tracks/2/keys = {
 custom_solver_bias = 0.0
 extents = Vector2( 2, 6 )
 
-[node name="sword" type="Node2D" index="0"]
+[node name="sword" type="Node2D"]
 
-position = Vector2( 10, 1 )
-rotation = 1.5708
-z_index = 1
+position = Vector2( 0, -10 )
+z_index = -1
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform", "Z Index" ]
 
@@ -204,12 +203,11 @@ _sections_unfolded = [ "Playback Options" ]
 
 [node name="Sprite" type="Sprite" parent="." index="1"]
 
+position = Vector2( 0, -4.16374 )
+scale = Vector2( 1, 1.52047 )
 texture = ExtResource( 2 )
 hframes = 2
 _sections_unfolded = [ "Animation", "Transform" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="area" type="Area2D" parent="." index="2"]
 
@@ -226,6 +224,8 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="area" index="0"]
 
+position = Vector2( 0, -5.21344 )
+scale = Vector2( 1, 1.57927 )
 shape = SubResource( 5 )
 disabled = true
 _sections_unfolded = [ "Transform" ]

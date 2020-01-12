@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+const MAXHEALTH = 2
 const TYPE = "ENEMY"
 const SPEED = 40
 
@@ -7,6 +8,7 @@ var movedir = Vector2(0,0)
 var knockdir = Vector2(0,0)
 var spritedir = "down"
 
+var health = MAXHEALTH
 var hitstun = 0
 var texture_default = null
 var texture_hurt    = null
@@ -42,9 +44,15 @@ func anim_switch(animation):
 func damage_loop():
 	if hitstun > 0:
 		hitstun -= 1
+		$Sprite.texture = texture_hurt
+	else:
+		$Sprite.texture = texture_default
+		if TYPE == "ENEMY" && health <= 0:
+			queue_free() 
 	for area in $hitbox.get_overlapping_areas():
 		var body = area.get_parent()
 		if hitstun == 0 && body.get("DAMAGE") != null && body.get("TYPE") != TYPE:
+			health -= body.get("DAMAGE")
 			hitstun = 10
 			knockdir = global_transform.origin - body.global_transform.origin
 

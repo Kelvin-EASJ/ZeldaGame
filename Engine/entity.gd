@@ -8,14 +8,19 @@ var knockdir = Vector2(0,0)
 var spritedir = "down"
 
 var hitstun = 0
-var health = 1
+var texture_default = null
+var texture_hurt    = null
+
+func _ready():
+	texture_default = $Sprite.texture
+	texture_hurt = load($Sprite.texture.get_path().replace("png","hurt_.png"))
 
 func movement_loop():
 	var motion
 	if hitstun == 0:
 		motion = movedir.normalized() * SPEED
 	else:
-		motion = knockdir.normalized() * SPEED * 1.5
+		motion = knockdir.normalized() * 125
 	move_and_slide(motion, Vector2(0,0))
 
 func spritedir_loop():

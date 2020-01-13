@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stalfaux_hurt_.png-a59ed50509efc1e771253e6939c43162.stex"
+path="res://.import/stalfaux._hurt_.png-6fd44bee22068003f12fa4cc2a37aa61.stex"
 
 [deps]
 
-source_file="res://Enemies/stalfaux_hurt_.png"
+source_file="res://Enemies/stalfaux._hurt_.png"
 source_md5="da888ac2ae53c44bec4ae5936fcbf654"
 
-dest_files=[ "res://.import/stalfaux_hurt_.png-a59ed50509efc1e771253e6939c43162.stex" ]
+dest_files=[ "res://.import/stalfaux._hurt_.png-6fd44bee22068003f12fa4cc2a37aa61.stex" ]
 dest_md5="d82effa757603131075b57740b55804b"
 
 [params]

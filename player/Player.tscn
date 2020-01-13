@@ -234,12 +234,12 @@ tracks/0/keys = {
 [sub_resource type="RectangleShape2D" id=13]
 
 custom_solver_bias = 0.0
-extents = Vector2( 7, 8 )
+extents = Vector2( 10.1084, 14.0732 )
 
 [sub_resource type="RectangleShape2D" id=14]
 
 custom_solver_bias = 0.0
-extents = Vector2( 8, 9 )
+extents = Vector2( 14.0424, 17.6262 )
 
 [node name="Player" type="KinematicBody2D"]
 
@@ -275,12 +275,15 @@ _sections_unfolded = [ "Playback Options" ]
 [node name="Sprite" type="Sprite" parent="." index="1"]
 
 position = Vector2( 1.49561, -3.79932 )
-scale = Vector2( 1.30259, 1.17525 )
+scale = Vector2( 1.5, 1.5 )
 texture = ExtResource( 2 )
 vframes = 2
 hframes = 8
 frame = 1
-_sections_unfolded = [ "Animation", "Region" ]
+_sections_unfolded = [ "Animation", "Region", "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
 

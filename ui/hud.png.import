@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player_hurt_.png-d4376224462b8ba84a73a966ce9ad175.stex"
+path="res://.import/hud.png-85a7690bf9cc7ace9dfa417e470f1719.stex"
 
 [deps]
 
-source_file="res://Enemies/player_hurt_.png"
-source_md5="e816c5b2e76d7c0863aa09e9a04ac0f0"
+source_file="res://ui/hud.png"
+source_md5="2126956a563192f4e520aa117772cafc"
 
-dest_files=[ "res://.import/player_hurt_.png-d4376224462b8ba84a73a966ce9ad175.stex" ]
-dest_md5="8b0e1d5c4a0e9746396d6c06c4935b70"
+dest_files=[ "res://.import/hud.png-85a7690bf9cc7ace9dfa417e470f1719.stex" ]
+dest_md5="4a07b5bde443c4a6d6cc108c8b512e05"
 
 [params]
 

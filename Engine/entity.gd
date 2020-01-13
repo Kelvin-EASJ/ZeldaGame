@@ -15,7 +15,7 @@ var texture_hurt    = null
 
 func _ready():
 	texture_default = $Sprite.texture
-	texture_hurt = load($Sprite.texture.get_path().replace("png","hurt_.png"))
+	texture_hurt = load($Sprite.texture.get_path().replace("png","_hurt_.png"))
 
 func movement_loop():
 	var motion

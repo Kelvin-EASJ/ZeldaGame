@@ -1,15 +1,14 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Player.gd" type="Script" id=1]
-[ext_resource path="res://TestCharacter.png" type="Texture" id=2]
-
+[ext_resource path="res://player/Player.gd" type="Script" id=1]
+[ext_resource path="res://player/player.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 7.5, 7.5 )
 
-[node name="KinematicBody2D" type="KinematicBody2D" index="0"]
+[node name="KinematicBody2D" type="KinematicBody2D"]
 
 position = Vector2( 2.15091, 1.43394 )
 input_pickable = false

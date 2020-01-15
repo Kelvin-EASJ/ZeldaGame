@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/enemy_death.png-d7cb3471769b1b49c9977117004f4996.stex"
+path="res://.import/Green_Wall.png-2d582db830da2c640b5653cfad48a12c.stex"
 
 [deps]
 
-source_file="res://enemies/enemy_death.png"
-source_md5="7c6d4e0c85669af30695945c479f48ff"
+source_file="res://tiles/Green_Wall.png"
+source_md5="9c39cb65ad8ce43dbd699e6a719facf8"
 
-dest_files=[ "res://.import/enemy_death.png-d7cb3471769b1b49c9977117004f4996.stex" ]
-dest_md5="2510aa8eaabc70503c67ea8eb3387a71"
+dest_files=[ "res://.import/Green_Wall.png-2d582db830da2c640b5653cfad48a12c.stex" ]
+dest_md5="d66c0d6996a96b792447cf91b52d61dc"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0

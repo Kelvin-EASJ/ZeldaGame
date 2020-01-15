@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/enemy_death.png-d7cb3471769b1b49c9977117004f4996.stex"
+path="res://.import/stalfos._hurt_.png-561840b840eeb0cc2265107d4bf02707.stex"
 
 [deps]
 
-source_file="res://enemies/enemy_death.png"
-source_md5="7c6d4e0c85669af30695945c479f48ff"
+source_file="res://enemies/stalfos._hurt_.png"
+source_md5="da888ac2ae53c44bec4ae5936fcbf654"
 
-dest_files=[ "res://.import/enemy_death.png-d7cb3471769b1b49c9977117004f4996.stex" ]
-dest_md5="2510aa8eaabc70503c67ea8eb3387a71"
+dest_files=[ "res://.import/stalfos._hurt_.png-561840b840eeb0cc2265107d4bf02707.stex" ]
+dest_md5="d82effa757603131075b57740b55804b"
 
 [params]
 

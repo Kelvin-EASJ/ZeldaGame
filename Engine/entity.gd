@@ -15,6 +15,7 @@ var texture_hurt    = null
 
 func _ready():
 	if TYPE == "ENEMY":
+		set_collision_mask_bit(1,1)
 		set_process(false)
 	texture_default = $Sprite.texture
 	texture_hurt = load($Sprite.texture.get_path().replace("png","_hurt_.png"))
@@ -50,7 +51,7 @@ func damage_loop():
 	else:
 		$Sprite.texture = texture_default
 		if TYPE == "ENEMY" && health <= 0:
-			var death_animation = preload("res://Enemies/enemy_death.tscn").instance()
+			var death_animation = preload("res://enemies/enemy_death.tscn").instance()
 			get_parent().add_child(death_animation)
 			death_animation.global_transform = global_transform
 			queue_free() 

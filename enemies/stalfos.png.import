@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Green_Wall.png-6340f9376a1640ad9b6ee1fd7fef0f18.stex"
+path="res://.import/stalfos.png-bb068c6a224afd64a485694810aeb984.stex"
 
 [deps]
 
-source_file="res://Green_Wall.png"
-source_md5="9c39cb65ad8ce43dbd699e6a719facf8"
+source_file="res://enemies/stalfos.png"
+source_md5="10429ca078d384caa9290ed1d4e2379d"
 
-dest_files=[ "res://.import/Green_Wall.png-6340f9376a1640ad9b6ee1fd7fef0f18.stex" ]
-dest_md5="d66c0d6996a96b792447cf91b52d61dc"
+dest_files=[ "res://.import/stalfos.png-bb068c6a224afd64a485694810aeb984.stex" ]
+dest_md5="fc4a112cc699191b645ab33a0df4cc1d"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

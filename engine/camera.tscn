@@ -17,7 +17,7 @@ extents = Vector2( 80, 2 )
 custom_solver_bias = 0.0
 extents = Vector2( 2, 64 )
 
-[node name="camera" type="Camera2D" index="0"]
+[node name="camera" type="Camera2D"]
 
 anchor_mode = 0
 rotating = false

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stalfaux.png-5a45d7c20a2b10e0ec98e9fa3be8d576.stex"
+path="res://.import/key.png-536baa82a471c10601dd7b4af2778f99.stex"
 
 [deps]
 
-source_file="res://Enemies/stalfaux.png"
-source_md5="10429ca078d384caa9290ed1d4e2379d"
+source_file="res://pickups/key.png"
+source_md5="9066f1f3f327d3ff1d2baa495d0f9b35"
 
-dest_files=[ "res://.import/stalfaux.png-5a45d7c20a2b10e0ec98e9fa3be8d576.stex" ]
-dest_md5="fc4a112cc699191b645ab33a0df4cc1d"
+dest_files=[ "res://.import/key.png-536baa82a471c10601dd7b4af2778f99.stex" ]
+dest_md5="cc21968bd145098b591a87525972554a"
 
 [params]
 

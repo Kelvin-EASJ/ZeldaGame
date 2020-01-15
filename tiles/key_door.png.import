@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/stalfaux._hurt_.png-6fd44bee22068003f12fa4cc2a37aa61.stex"
+path="res://.import/key_door.png-3223c8579087e2e8b91364052c4b8b9b.stex"
 
 [deps]
 
-source_file="res://Enemies/stalfaux._hurt_.png"
-source_md5="da888ac2ae53c44bec4ae5936fcbf654"
+source_file="res://tiles/key_door.png"
+source_md5="1b52d5f6458ccefc4edf5a01f4b8cbba"
 
-dest_files=[ "res://.import/stalfaux._hurt_.png-6fd44bee22068003f12fa4cc2a37aa61.stex" ]
-dest_md5="d82effa757603131075b57740b55804b"
+dest_files=[ "res://.import/key_door.png-3223c8579087e2e8b91364052c4b8b9b.stex" ]
+dest_md5="6753adff10420bb520e1c02a9efad1b9"
 
 [params]
 

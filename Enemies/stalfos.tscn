@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Enemies/stalfos.gd" type="Script" id=1]
-[ext_resource path="res://Enemies/stalfaux.png" type="Texture" id=2]
+[ext_resource path="res://enemies/stalfos.gd" type="Script" id=1]
+[ext_resource path="res://enemies/stalfos.png" type="Texture" id=2]
 
 [sub_resource type="Animation" id=1]
 
@@ -54,16 +54,14 @@ _sections_unfolded = [ "Playback Options" ]
 [node name="Sprite" type="Sprite" parent="." index="1"]
 
 position = Vector2( 0.790639, -0.940887 )
-scale = Vector2( 1.7138, 1.60291 )
+scale = Vector2( 1.4, 1.4 )
 texture = ExtResource( 2 )
-__meta__ = {
-"_edit_lock_": true
-}
+_sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
 
-position = Vector2( 0.790639, -0.940887 )
-scale = Vector2( 1.7138, 1.60291 )
+position = Vector2( 0.960631, -0.948304 )
+scale = Vector2( 1.65896, 1.60373 )
 shape = SubResource( 2 )
 
 [node name="hitbox" type="Area2D" parent="." index="3"]
@@ -78,7 +76,8 @@ audio_bus_name = "Master"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox" index="0"]
 
-position = Vector2( 0.970604, -1.29414 )
+position = Vector2( 0.588965, -0.822903 )
+scale = Vector2( 0.869496, 0.849276 )
 shape = SubResource( 3 )
 
 

@@ -2,7 +2,10 @@ extends "res://engine/entity.gd"
 
 const TYPE = "PLAYER"
 const SPEED = 70
+
 var state = "default"
+
+var keys = 0
 
 func _physics_process(delta):
 	match state:
@@ -10,6 +13,8 @@ func _physics_process(delta):
 			state_default()
 		"swing":
 			state_swing()
+
+	keys = min(keys, 9)
 
 func state_default():
 	controls_loop()

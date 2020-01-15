@@ -288,8 +288,8 @@ __meta__ = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
 
 visible = false
-position = Vector2( 1.38023, -3.6884 )
-scale = Vector2( 1.21394, 1.15631 )
+position = Vector2( 1.536, -4.07275 )
+scale = Vector2( 0.803011, 0.814289 )
 shape = SubResource( 13 )
 
 [node name="hitbox" type="Area2D" parent="." index="3"]
@@ -306,8 +306,8 @@ audio_bus_name = "Master"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox" index="0"]
 
 visible = false
-position = Vector2( 1.4202, -3.77775 )
-scale = Vector2( 1.03158, 0.985764 )
+position = Vector2( 1.20888, -3.67553 )
+scale = Vector2( 0.745838, 0.751053 )
 shape = SubResource( 14 )
 
 

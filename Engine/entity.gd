@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-const MAXHEALTH = 2
+const MAXHEALTH = 1
 const TYPE = "ENEMY"
 const SPEED = 40
 

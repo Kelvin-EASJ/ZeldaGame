@@ -1,5 +1,6 @@
 extends "res://engine/entity.gd"
 
+const MAXHEALTH = 16
 const TYPE = "PLAYER"
 const SPEED = 70
 

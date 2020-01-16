@@ -8,7 +8,7 @@
 [ext_resource path="res://pickups/key.tscn" type="PackedScene" id=6]
 [ext_resource path="res://tiles/key_door.tscn" type="PackedScene" id=7]
 
-[node name="Node" type="Node" index="0"]
+[node name="Node" type="Node"]
 
 [node name="hud" parent="." index="0" instance=ExtResource( 1 )]
 

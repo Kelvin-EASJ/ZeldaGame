@@ -32,7 +32,7 @@ extents = Vector2( 6, 6 )
 custom_solver_bias = 0.0
 extents = Vector2( 13, 13 )
 
-[node name="stalfos" type="KinematicBody2D" index="0"]
+[node name="stalfos" type="KinematicBody2D"]
 
 input_pickable = false
 collision_layer = 1
@@ -76,6 +76,7 @@ audio_bus_name = "Master"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox" index="0"]
 
+visible = false
 position = Vector2( 0.588965, -0.822903 )
 scale = Vector2( 0.869496, 0.849276 )
 shape = SubResource( 3 )

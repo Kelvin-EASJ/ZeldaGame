@@ -227,7 +227,6 @@ __meta__ = {
 position = Vector2( 0, -5.21344 )
 scale = Vector2( 1, 1.57927 )
 shape = SubResource( 5 )
-disabled = true
 _sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_lock_": true

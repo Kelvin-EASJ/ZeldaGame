@@ -58,6 +58,7 @@ tile_data = PoolIntArray( -196650, 0, 0, -196639, 0, 0, 131065, 0, 0, 65552, 0, 
 
 position = Vector2( 581.231, 73.5079 )
 _sections_unfolded = [ "Collision" ]
+disappears = false
 
 [node name="key_door" parent="." index="6" instance=ExtResource( 7 )]
 

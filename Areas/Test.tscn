@@ -19,11 +19,13 @@ _sections_unfolded = [ "Collision" ]
 
 [node name="camera" parent="." index="2" instance=ExtResource( 3 )]
 
-position = Vector2( -61.8787, -83.0516 )
+position = Vector2( -60.3713, -74.0076 )
 scale = Vector2( 1.76487, 2.14854 )
 offset = Vector2( 80, 88 )
 anchor_mode = 1
 current = true
+zoom = Vector2( 0.75, 0.75 )
+_sections_unfolded = [ "Limit" ]
 
 [node name="TileMap" type="TileMap" parent="." index="3"]
 

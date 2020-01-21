@@ -34,11 +34,13 @@ extents = Vector2( 13, 13 )
 
 [node name="stalfos" type="KinematicBody2D"]
 
+scale = Vector2( 0.75, 0.75 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Anim" type="AnimationPlayer" parent="." index="0"]
 

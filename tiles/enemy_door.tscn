@@ -99,7 +99,7 @@ extents = Vector2( 8, 8 )
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[node name="enemy_door" type="StaticBody2D" index="0"]
+[node name="enemy_door" type="StaticBody2D"]
 
 input_pickable = false
 collision_layer = 1
@@ -126,7 +126,6 @@ _sections_unfolded = [ "Playback Options" ]
 
 texture = ExtResource( 2 )
 hframes = 2
-frame = 1
 _sections_unfolded = [ "Animation", "Visibility" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]

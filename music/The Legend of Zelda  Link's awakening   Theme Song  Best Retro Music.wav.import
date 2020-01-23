@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/The Legend of Zelda  Link's awakening   Theme Song  Best Retro Music.wav-9f0aae7f1fd2e579f7a3b9f1096d8900.sample"
+
+[deps]
+
+source_file="res://music/The Legend of Zelda  Link's awakening   Theme Song  Best Retro Music.wav"
+source_md5="c1ee3a02e25f9fc8ae816871b879f448"
+
+dest_files=[ "res://.import/The Legend of Zelda  Link's awakening   Theme Song  Best Retro Music.wav-9f0aae7f1fd2e579f7a3b9f1096d8900.sample" ]
+dest_md5="180b2d96b5769e2144d1937ca4be0177"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

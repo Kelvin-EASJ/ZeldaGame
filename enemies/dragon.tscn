@@ -32,7 +32,7 @@ extents = Vector2( 10, 10 )
 custom_solver_bias = 0.0
 extents = Vector2( 12.5032, 13.9533 )
 
-[node name="dragon" type="KinematicBody2D" index="0"]
+[node name="dragon" type="KinematicBody2D"]
 
 input_pickable = false
 collision_layer = 1
@@ -67,7 +67,6 @@ shape = SubResource( 1 )
 
 [node name="hitbox" type="Area2D" parent="." index="3"]
 
-editor/display_folded = true
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0

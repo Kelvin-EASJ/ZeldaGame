@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://ui/hud.tscn" type="PackedScene" id=1]
 [ext_resource path="res://player/Player.tscn" type="PackedScene" id=2]
@@ -9,12 +9,12 @@
 [ext_resource path="res://tiles/key_door.tscn" type="PackedScene" id=7]
 [ext_resource path="res://tiles/enemy_door.tscn" type="PackedScene" id=8]
 [ext_resource path="res://music/The Legend of Zelda  Link's awakening   Theme Song  Best Retro Music.wav" type="AudioStream" id=9]
+[ext_resource path="res://enemies/dragon.tscn" type="PackedScene" id=10]
 
 [node name="Node" type="Node" index="0"]
 
 [node name="hud" parent="." index="0" instance=ExtResource( 1 )]
 
-layer = -1
 scale = Vector2( 6.4, 3 )
 transform = Transform2D( 6.4, 0, 0, 3, 0, 0 )
 
@@ -147,11 +147,16 @@ _sections_unfolded = [ "Transform" ]
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." index="17"]
 
 stream = ExtResource( 9 )
-volume_db = -13.0
+volume_db = -17.0
 autoplay = true
 max_distance = 2000.0
 attenuation = 1.0
 bus = "Master"
 area_mask = 1
+_sections_unfolded = [ "Material", "Pause" ]
+
+[node name="dragon" parent="." index="18" instance=ExtResource( 10 )]
+
+position = Vector2( 368.078, 572.565 )
 
 

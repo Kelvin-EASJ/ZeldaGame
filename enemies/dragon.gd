@@ -1,15 +1,21 @@
-extends KinematicBody2D
+extends "res://engine/entity.gd"
 
-# class member variables go here, for example:
-# var a = 2
-# var b = "textvar"
+const MAXHEALTH = 10
+const SPEED = 40
+const DAMAGE = 2
+
+var movetimer_length = 15
+var movetimer = 0
 
 func _ready():
-	# Called every time the node is added to the scene.
-	# Initialization here
-	pass
+	$anim.play("default")
+	movedir = dir.rand()
 
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass
+func _physics_process(delta):
+	movement_loop()
+	damage_loop()
+	if movetimer > 0:
+		movetimer -= 1
+	if movetimer == 0 || is_on_wall():
+		movedir = dir.rand()
+		movetimer = movetimer_length

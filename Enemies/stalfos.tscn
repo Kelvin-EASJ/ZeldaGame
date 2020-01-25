@@ -58,6 +58,7 @@ _sections_unfolded = [ "Playback Options" ]
 position = Vector2( 0.790639, -0.940887 )
 scale = Vector2( 1.4, 1.4 )
 texture = ExtResource( 2 )
+flip_h = true
 _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
